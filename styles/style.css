@@ -277,7 +277,7 @@ body {
 }
 
 .fact-item:hover {
-  transform: rotate(90deg);
+  transform: rotate(45deg);
 }
 
 .fact-item-num {
@@ -322,6 +322,39 @@ body {
 
 .sponsors-items img {
   filter: grayscale(100%);
+}
+
+/* SUBSCRIBE STYLES */
+.subscribe {
+  text-align: center;
+  margin-top: 130px;
+}
+.subscribe-title {
+  font-weight: 700;
+  font-size: 45px;
+}
+.subscribe-subtitle {
+  margin: 10px 0 20px;
+  color: var(--sub-text-color);
+}
+.subscribe-email span {
+  background-color: var(--bg-color);
+  /* width: 22%; */
+  margin: auto;
+  padding: 20px;
+}
+.subscribe-email input {
+  padding: 10px;
+  border: 1px solid #ff900e;
+  border-radius: 8px 0 0 8px;
+  margin-right: -6px;
+}
+.btn-sub {
+  padding: 11px;
+  border: none;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  border-radius: 0 8px 8px 0;
 }
 
 /* FOOTER STYLES */
