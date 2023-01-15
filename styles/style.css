@@ -417,6 +417,16 @@ body {
   .experience-yer-exp {
     font-size: 15px;
   }
+  /* FACTS STYLE */
+  .fact {
+    text-align: center;
+  }
+  .fact-title {
+    font-size: 30px;
+  }
+  .fact-items {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 .hide {
