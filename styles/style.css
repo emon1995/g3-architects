@@ -318,6 +318,7 @@ body {
   justify-content: space-between;
   width: 85%;
   margin: auto;
+  justify-items: center;
 }
 
 .sponsors-items img {
@@ -384,17 +385,18 @@ body {
     padding: 10px 15px;
   }
   /* NAVBAR */
-  .navbar {
+  .navbar,
+  .menu-items {
     flex-direction: column;
     gap: 20px;
   }
   .navbar-logo {
     font-size: 30px;
   }
-  .menu-items {
+  /* .menu-items {
     flex-direction: column;
     gap: 20px;
-  }
+  } */
   /* BANNER */
   .banner-details {
     width: 100%;
@@ -441,7 +443,10 @@ body {
   /* .experience-des {
     text-align: center;
   } */
-  .experience-des-title {
+  .experience-des-title,
+  .experience-year-name,
+  .fact-title,
+  .sponsors-title {
     font-size: 30px;
   }
   .experience-img {
@@ -453,9 +458,9 @@ body {
     left: 80px;
     width: 50%;
   }
-  .experience-year-name {
+  /* .experience-year-name {
     font-size: 30px;
-  }
+  } */
   .experience-yer-exp {
     font-size: 15px;
   }
@@ -463,9 +468,9 @@ body {
   .fact {
     text-align: center;
   }
-  .fact-title {
+  /* .fact-title {
     font-size: 30px;
-  }
+  } */
   .fact-items {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -476,13 +481,19 @@ body {
     margin: auto;
     /* margin: 0 20px; */
   }
-  .sponsors-title {
+  /* .sponsors-title {
     font-size: 30px;
-  }
+  } */
   .sponsors-items {
     grid-template-columns: repeat(1, 1fr);
     justify-items: center;
     gap: 20px;
+  }
+
+  /* SUBSCRIBE STYLES */
+  .subscribe {
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   /* FOOTER STYLES */
@@ -518,7 +529,8 @@ body {
   .feature-details {
     width: 100%;
   }
-  .feature-details {
+  .feature-details,
+  .fact {
     text-align: center;
   }
   .feature-details-title {
@@ -541,9 +553,9 @@ body {
   }
 
   /* FACTS STYLES */
-  .fact {
+  /* .fact {
     text-align: center;
-  }
+  } */
   .fact-items {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -561,6 +573,12 @@ body {
   }
   .img-left {
     margin-left: 16px;
+  }
+
+  /* SUBSCRIBE STYLES */
+  .subscribe {
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   /* FOOTER STYLES */
