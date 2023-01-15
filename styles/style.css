@@ -344,25 +344,27 @@ body {
   /* NAVBAR */
   .navbar {
     flex-direction: column;
+    gap: 20px;
   }
   .navbar-logo {
     font-size: 30px;
   }
   .menu-items {
     flex-direction: column;
+    gap: 20px;
   }
   /* BANNER */
   .banner-details {
-    width: 50%;
+    width: 100%;
   }
   .banner-title {
-    font-size: 34px;
+    font-size: 35px;
   }
   .banner-subtitle {
     padding: 0 20px;
   }
   .banner-img {
-    width: 50%;
+    width: 90%;
   }
   .banner-img img {
     width: 100%;
@@ -370,17 +372,50 @@ body {
   /* FEATURES */
   .feature {
     flex-direction: column;
-
     width: 100%;
+    padding: 0 20px;
   }
   .feature-images {
     grid-template-columns: repeat(1, 1fr);
+    width: 100%;
   }
   .feature-details {
     text-align: center;
+    width: 100%;
   }
   .feature-details-title {
     font-size: 25px;
+  }
+
+  /* EXPERIENCE */
+  .experience {
+    flex-direction: column;
+    width: 90%;
+    gap: 46px;
+  }
+  .experience-details {
+    width: 100%;
+  }
+  .experience-des {
+    text-align: center;
+  }
+  .experience-des-title {
+    font-size: 30px;
+  }
+  .experience-img {
+    width: 100%;
+  }
+  .experience-year {
+    padding: 10px 20px;
+    bottom: -30px;
+    left: 80px;
+    width: 50%;
+  }
+  .experience-year-name {
+    font-size: 30px;
+  }
+  .experience-yer-exp {
+    font-size: 15px;
   }
 }
 
