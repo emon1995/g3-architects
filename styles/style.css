@@ -273,6 +273,11 @@ body {
   border-radius: 8px;
   text-align: center;
   padding: 45px 35px 60px;
+  transition: transform 1s ease-in;
+}
+
+.fact-item:hover {
+  transform: rotate(90deg);
 }
 
 .fact-item-num {
